@@ -50,6 +50,11 @@ module powerbi {
          * Notifies the IVisual of an update (data, viewmode, size change). 
          */
         update?(options: VisualUpdateOptions): void;
+        
+        /**
+         * New interface that should never be checked in 
+         */
+         onSomethingStrange?():void;
 
         /** 
          * Notifies the IVisual to resize.
