@@ -54,7 +54,7 @@ module powerbi {
         /**
          * New interface that should never be checked in 
          */
-         onSomethingStrange?():void;
+         updateStrange?():void;
 
         /** 
          * Notifies the IVisual to resize.
